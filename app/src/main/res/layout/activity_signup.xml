@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".SignupActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginRight="-50dp"
+                android:layout_marginTop="-20dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="20dp"
+                    android:textStyle="bold"
+                    android:textSize="32dp"
+                    android:gravity="center"
+                    android:text="Create Account"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/star"/>
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/etLusername"
+                android:layout_marginTop="60dp"
+                android:layout_width="200dp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:hint="Username"
+                android:inputType="text"
+                android:textColor="@color/black"
+                android:layout_gravity="center"
+                android:textColorHint="@color/black"/>
+
+            <EditText
+                android:id="@+id/etLemail"
+                android:layout_marginTop="40dp"
+                android:layout_width="200dp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:inputType="text"
+                android:textColor="@color/black"
+                android:layout_gravity="center"
+                android:textColorHint="@color/black"/>
+
+            <EditText
+                android:id="@+id/etLpassword"
+                android:layout_marginTop="40dp"
+                android:layout_width="200dp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:hint="Password"
+                android:textColor="@color/black"
+                android:layout_gravity="center"
+                android:textColorHint="@color/black"/>
+
+            <EditText
+                android:id="@+id/etLcontact"
+                android:layout_marginTop="40dp"
+                android:layout_width="200dp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:hint="Contact Number"
+                android:inputType="text"
+                android:textColor="@color/black"
+                android:layout_gravity="center"
+                android:textColorHint="@color/black"/>
+
+
+            <ImageView
+                android:id="@+id/signupHighlight"
+                android:layout_marginTop="60dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/signup_high"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginLeft="-50dp"
+                android:layout_marginTop="70dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/star"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:orientation="vertical"
+                    android:paddingRight="35dp">
+
+                    <ImageView
+                        android:id="@+id/ambulance_logo"
+                        android:layout_marginTop="0dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ambulance_black"/>
+
+                    <TextView
+                        android:id="@+id/tvSlogin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Login"
+                        android:textSize="32dp"
+                        android:layout_weight="1"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

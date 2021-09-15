@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal">-->
+
+<!--        <ImageView-->
+<!--            android:layout_marginTop="15dp"-->
+<!--            android:layout_marginLeft="0dp"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:src="@drawable/Line0"/>-->
+
+<!--        <ImageView-->
+<!--            android:layout_marginTop="0dp"-->
+<!--            android:layout_marginLeft="-10dp"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:src="@drawable/Line2"/>-->
+
+<!--        <ImageView-->
+<!--            android:layout_marginTop="-5dp"-->
+<!--            android:layout_marginLeft="0dp"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:src="@drawable/Line1"/>-->
+
+<!--        <ImageView-->
+<!--            android:layout_marginLeft="0dp"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:src="@drawable/Line3"/>-->
+
+<!--        <ImageView-->
+<!--            android:layout_marginLeft="0dp"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:src="@drawable/Line4"/>-->
+
+<!--        <ImageView-->
+<!--            android:layout_marginLeft="0dp"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:src="@drawable/Line5"/>-->
+
+
+<!--    </LinearLayout>-->
+
+    <ImageView
+        android:id="@+id/blink"
+        android:visibility="visible"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="35dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/light"/>
+
+    <ImageView
+        android:id="@+id/ambulance_logo"
+        android:layout_marginTop="-30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pi76dkri9"/>
+
+
+
+</LinearLayout>
