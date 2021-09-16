@@ -80,6 +80,7 @@
                     </LinearLayout>
 
                     <ImageView
+                        android:id="@+id/request"
                         android:layout_marginTop="100dp"
                         android:layout_marginRight="50dp"
                         android:layout_width="wrap_content"

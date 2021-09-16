@@ -28,73 +28,477 @@
                 android:layout_marginTop="30dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:padding="20dp"
                 android:orientation="vertical"
                 android:background="@drawable/border_background">
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textStyle="bold"
-                    android:text="Vedanta Hospital Pvt. Ltd."
-                    android:textColor="@color/white"
-                    android:textSize="24dp"/>
-
                 <LinearLayout
+                    android:id="@+id/cardio"
+                    android:contentDescription="0"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:background="@color/white"
                     android:orientation="horizontal">
 
-                    <LinearLayout
+                    <ImageView
+                        android:id="@+id/cardioimg"
+                        android:layout_weight="5"
+                        android:layout_gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/downarrow"/>
+
+                    <TextView
                         android:layout_weight="1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="vertical">
+                        android:text="Cardio-Pulmonary Resuscitation"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="18dp"
+                        android:padding="20dp"/>
+                </LinearLayout>
 
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="Kathmandu -12, Bagmati"
-                            android:textSize="18dp"
-                            android:textColor="#BFFFFFFF"/>
+                <LinearLayout
+                    android:id="@+id/cardiodesc"
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="20dp">
 
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="01482659"
-                            android:textSize="18dp"
-                            android:textColor="#BFFFFFFF"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal"
+                        android:text="Clear the airway"
+                        android:textColor="@color/white"
+                        android:textSize="24dp"/>
 
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="Ba 1 Kha 50"
-                            android:textSize="18dp"
-                            android:textColor="#BFFFFFFF"/>
+                    <View
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="#838383"/>
 
-
-                    </LinearLayout>
-
-                    <LinearLayout
+                    <TextView
                         android:layout_marginTop="10dp"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:gravity="right"
-                        android:layout_weight="2">
-                        <ImageView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:src="@drawable/call"/>
-                    </LinearLayout>
+                        android:textStyle="normal"
+                        android:text="Access the person is consicious/ breathing"
+                        android:textColor="@color/white"
+                        android:textSize="24dp"/>
+
+                    <View
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="#838383"/>
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal"
+                        android:text="Lay the person on his back on a hard surface"
+                        android:textColor="@color/white"
+                        android:textSize="24dp"/>
+
+                    <View
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="#838383"/>
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal"
+                        android:text="Using a head tilt - chin lift open person airway"
+                        android:textColor="@color/white"
+                        android:textSize="24dp"/>
+
+                    <View
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="#838383"/>
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal"
+                        android:text="If not breathing, start mouth-to-mouth breathing"
+                        android:textColor="@color/white"
+                        android:textSize="24dp"/>
 
                 </LinearLayout>
 
 
 
+
+
+
             </LinearLayout>
 
+            <LinearLayout
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/border_background">
+
+                <LinearLayout
+                    android:id="@+id/snake"
+                    android:contentDescription="0"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/snakeimg"
+                        android:layout_weight="5"
+                        android:layout_gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/downarrow"/>
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Snake Bite"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="18dp"
+                        android:padding="20dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/snakedesc"
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal"
+                        android:text="Clear the airway"
+                        android:textColor="@color/white"
+                        android:textSize="24dp"/>
+
+                    <View
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="#838383"/>
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal"
+                        android:text="Access the person is consicious/ breathing"
+                        android:textColor="@color/white"
+                        android:textSize="24dp"/>
+
+                    <View
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="#838383"/>
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal"
+                        android:text="Lay the person on his back on a hard surface"
+                        android:textColor="@color/white"
+                        android:textSize="24dp"/>
+
+                    <View
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="#838383"/>
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal"
+                        android:text="Using a head tilt - chin lift open person airway"
+                        android:textColor="@color/white"
+                        android:textSize="24dp"/>
+
+                    <View
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="#838383"/>
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal"
+                        android:text="If not breathing, start mouth-to-mouth breathing"
+                        android:textColor="@color/white"
+                        android:textSize="24dp"/>
+
+                </LinearLayout>
 
 
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/border_background">
+
+                <LinearLayout
+                    android:id="@+id/chemical"
+                    android:contentDescription="0"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/chemicalimg"
+                        android:layout_weight="5"
+                        android:layout_gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/downarrow"/>
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Chemical Burn"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="18dp"
+                        android:padding="20dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/chemicaldesc"
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal"
+                        android:text="Clear the airway"
+                        android:textColor="@color/white"
+                        android:textSize="24dp"/>
+
+                    <View
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="#838383"/>
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal"
+                        android:text="Access the person is consicious/ breathing"
+                        android:textColor="@color/white"
+                        android:textSize="24dp"/>
+
+                    <View
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="#838383"/>
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal"
+                        android:text="Lay the person on his back on a hard surface"
+                        android:textColor="@color/white"
+                        android:textSize="24dp"/>
+
+                    <View
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="#838383"/>
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal"
+                        android:text="Using a head tilt - chin lift open person airway"
+                        android:textColor="@color/white"
+                        android:textSize="24dp"/>
+
+                    <View
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="#838383"/>
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal"
+                        android:text="If not breathing, start mouth-to-mouth breathing"
+                        android:textColor="@color/white"
+                        android:textSize="24dp"/>
+
+                </LinearLayout>
+
+
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/border_background">
+
+                <LinearLayout
+                    android:id="@+id/heart"
+                    android:contentDescription="0"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/heartimg"
+                        android:layout_weight="5"
+                        android:layout_gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/downarrow"/>
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Heart Attack"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="18dp"
+                        android:padding="20dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/heartdesc"
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal"
+                        android:text="Clear the airway"
+                        android:textColor="@color/white"
+                        android:textSize="24dp"/>
+
+                    <View
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="#838383"/>
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal"
+                        android:text="Access the person is consicious/ breathing"
+                        android:textColor="@color/white"
+                        android:textSize="24dp"/>
+
+                    <View
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="#838383"/>
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal"
+                        android:text="Lay the person on his back on a hard surface"
+                        android:textColor="@color/white"
+                        android:textSize="24dp"/>
+
+                    <View
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="#838383"/>
+
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal"
+                        android:text="Using a head tilt - chin lift open person airway"
+                        android:textColor="@color/white"
+                        android:textSize="24dp"/>
+
+                    <View
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="#838383"/>
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="normal"
+                        android:text="If not breathing, start mouth-to-mouth breathing"
+                        android:textColor="@color/white"
+                        android:textSize="24dp"/>
+
+                </LinearLayout>
+
+
+
+
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="200dp"/>
 
         </LinearLayout>
     </ScrollView>

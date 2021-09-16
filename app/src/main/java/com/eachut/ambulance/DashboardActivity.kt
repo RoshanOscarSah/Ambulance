@@ -11,6 +11,7 @@ class DashboardActivity : AppCompatActivity() {
 
     private lateinit var phonebookD: ImageView
     private lateinit var healthytipD: ImageView
+    private lateinit var request: ImageView
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -19,6 +20,7 @@ class DashboardActivity : AppCompatActivity() {
 
         phonebookD =  findViewById(R.id.phonebookD)
         healthytipD = findViewById(R.id.healthytipD)
+        request = findViewById(R.id.request)
 
 
         phonebookD.setOnClickListener {
@@ -27,9 +29,14 @@ class DashboardActivity : AppCompatActivity() {
         }
 
         healthytipD.setOnClickListener {
-                val intent = Intent(this, HealthtipActivity::class.java)
-                startActivity(intent)
-            }
+            val intent = Intent(this, HealthtipActivity::class.java)
+            startActivity(intent)
+        }
+
+        request.setOnClickListener {
+            val intent = Intent(this, LoadingActivity::class.java)
+            startActivity(intent)
+        }
 
 
     }
