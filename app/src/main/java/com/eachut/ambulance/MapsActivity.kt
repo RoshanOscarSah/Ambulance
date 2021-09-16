@@ -51,24 +51,24 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
      * installed Google Play services and returned to the app.
      */
     override fun onMapReady(googleMap: GoogleMap) {
-        mMap = googleMap
-
-        // Add a marker in Sydney and move the camera
-        val sydney = LatLng(-34.0, 151.0)
-        mMap.addMarker(MarkerOptions().position(sydney).title("Marker in Sydney"))
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney))
-
 //        mMap = googleMap
 //
-//        // Add a marker in NapaliGallery and move the camera
-//        val NapaliGallery = LatLng(27.6819634, 85.3323139)
-//        mMap.addMarker(
-//            MarkerOptions().position(NapaliGallery)
-//                .title("Ambulance Location")
-//                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
-//        )
-//        mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(NapaliGallery,15F),3000,null)
-//        mMap.uiSettings.isZoomControlsEnabled = true
+//        // Add a marker in Sydney and move the camera
+//        val sydney = LatLng(-34.0, 151.0)
+//        mMap.addMarker(MarkerOptions().position(sydney).title("Marker in Sydney"))
+//        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney))
+
+        mMap = googleMap
+
+        // Add a marker in NapaliGallery and move the camera
+        val NapaliGallery = LatLng(27.6819634, 85.3323139)
+        mMap.addMarker(
+            MarkerOptions().position(NapaliGallery)
+                .title("Ambulance Location")
+                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        )
+        mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(NapaliGallery,15F),3000,null)
+        mMap.uiSettings.isZoomControlsEnabled = true
 
     }
 }
